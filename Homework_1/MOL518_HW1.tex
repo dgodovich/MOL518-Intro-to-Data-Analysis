@@ -1,6 +1,3 @@
-% MOL518 Homework 1
-% (Edit due date, points, and any course policy text as needed.)
-
 \documentclass[11pt]{article}
 
 \usepackage[margin=1in]{geometry}
@@ -39,12 +36,13 @@
 \end{center}
 
 
-\begin{itemize}
-  \item For this assignment, you will generate and then submit a jupyter notebook on canvas.
-  \item You may use generative AI tools as per the syllabus unless otherwise stated in the problem.
-\end{itemize}
+For this assignment, you will generate and then submit a jupyter notebook on canvas. You may use generative AI tools as per the syllabus unless otherwise stated in the problem.
 
-\textit{First, make a new Jupyter notebook named \texttt{MOL518\_HW1\_<YourLastName>.ipynb}. All problems will be answered in this notebook. For each problem, start with a Markdown cell using Problem XX as the title, i.e. ``\# Problem 1''.}
+\vskip 4pt
+
+\noindent \textit{First, make a new Jupyter notebook named \texttt{MOL518\_HW1\_<YourLastName>.ipynb}. All problems will be answered in this notebook. For each problem, start with a Markdown cell using Problem XX as the title, i.e. ``\# Problem 1''.}
+
+\newpage 
 
 \section*{Problem 1: Practice with Markdown}
 
@@ -57,66 +55,13 @@ Figure~\ref{fig:stryerpreface} is the preface page for Lubert Stryer's classic t
 \label{fig:stryerpreface}
 \end{figure}
 
-\section*{Problem 3: NumPy Arrays (Indexing, Slicing, Shape)}
-(25 points)
 
-\begin{enumerate}[label=\alph*)]
-  \item Create a 1D NumPy array containing the odd integers from 1 to 21 (inclusive).
-  \item Print every 3rd element of that array (starting from the first element of the array).
-  \item How many elements remain if you remove every 3rd element? Show your reasoning and/or code.
-  \item Create the following 2D array as a NumPy array:
+\section*{Problem 2: Inspecting a growth curve}
 
-\begin{center}
-\begin{tabular}{ccccc}
-\toprule
-0 & 0 & 1 & 0 & 0\\
-0 & 2 & 0 & 2 & 0\\
-3 & 0 & 0 & 0 & 3\\
-0 & 2 & 0 & 2 & 0\\
-0 & 0 & 1 & 0 & 0\\
-\bottomrule
-\end{tabular}
-\end{center}
 
-  \item Print the 3rd row (be careful about Python indexing).
-  \item Compute the total number of elements in the array using its \texttt{.shape}.
-  \item Replace the last row with \texttt{[99, 99, 99, 99, 99]} and print the modified array.
-\end{enumerate}
+\section*{Problem 3: Saving Analyzed Data}
 
-\section*{Problem 4: Loading and Inspecting Data (CSV)}
-(25 points)
 
-In Lecture 2 you loaded a growth curve CSV file into a NumPy array.
 
-\begin{enumerate}[label=\alph*)]
-  \item Load \texttt{Lecture\_2/data/growth\_curve1.csv} using \texttt{np.loadtxt(..., delimiter=",")}. Include the code you used.
-  \item Print the shape of the loaded array.
-  \item Print the first 5 rows and the last row.
-  \item Extract the time column and OD column into 1D arrays called \texttt{time} and \texttt{od}.
-  \item Compute the total duration of the experiment in hours.
-\end{enumerate}
-
-\section*{Problem 5: Saving Derived Data}
-(15 points)
-
-\begin{enumerate}[label=\alph*)]
-  \item Create a normalized OD array \texttt{od\_norm} by dividing all OD values by the first OD measurement.
-  \item Create a 2D array with time in hours and \texttt{od\_norm} as columns.
-  \item Save the result as a new CSV file (do \emph{not} overwrite the original). Name it \texttt{growth\_curve1\_hr\_norm.csv} and place it alongside the original in the same \texttt{data/} directory.
-\end{enumerate}
-
-\section*{Optional (Extra Credit): Two Files, Lists, and Change in OD}
-(+5 points)
-
-Load both \texttt{growth\_curve1.csv} and \texttt{growth\_curve2.csv} using a Python list of filenames. For each dataset, compute the change in OD from the first to last time point. Print the two values.
-
-\vspace{8pt}
-\noindent\textbf{Checklist before submitting:}
-\begin{itemize}[leftmargin=*]
-  \item PDF compiles without errors.
-  \item All questions answered and labeled.
-  \item Code included where requested.
-  \item Output/units reported where relevant.
-\end{itemize}
 
 \end{document}
