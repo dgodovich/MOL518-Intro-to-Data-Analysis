@@ -57,27 +57,24 @@ Figure~\ref{fig:stryerpreface} is the preface page for Lubert Stryer's classic t
 
 \section*{Problem 2: Wet-Lab Arithmetic}
 
-You are planning a simple infection in a single well of a plate. You have a tube of virus stock at a known titer, and you want to prepare an inoculum at a target MOI in a specified final volume.
-
-In your notebook, write your work as if you are preparing a mini ``protocol note'' for yourself: define variables clearly, keep track of units, and print a short summary at the end.
-
-\textbf{Do not use \texttt{for} loops or \texttt{if} statements in this problem.}
+You are doing a phage infection assay. You have a tube of virus stock at a known titer, and you want to prepare an inoculum at a target multiplicity of infection (MOI) in a specified final volume. You will now prepare a mini ``protocol note'' for yourself: define variables clearly, keep track of units, and print a short summary at the end.
 
 \begin{enumerate}[label=\alph*)]
-  \item In a single code cell, define the following variables (with these exact names) in Python:
+  \item In a single code cell, define the following variables:
   \begin{itemize}
     \item \texttt{cells} = 250000 \quad (cells)
-    \item \texttt{moi} = 0.2 \quad (dimensionless)
+    \item \texttt{moi} = 1.5 \quad (dimensionless)
     \item \texttt{titer} = 2.0e8 \quad (infectious units per mL)
     \item \texttt{inoc\_vol\_uL} = 500 \quad ($\mu$L total inoculation volume)
   \end{itemize}
 
-  \item Compute the number of infectious units needed for this infection (call it \texttt{iu\_needed}). Briefly explain (in a Markdown sentence) what MOI means in words.
+  \item Compute the number of infectious units needed for this infection, \texttt{iu\_needed}. Briefly explain what MOI means in words.
 
   \item Convert the titer to infectious units per $\mu$L, then compute the volume of virus stock to add (in $\mu$L) to deliver \texttt{iu\_needed}.
+  
   \item Compute the remaining volume (in $\mu$L) that must be filled with media so the final inoculum volume is exactly \texttt{inoc\_vol\_uL}.
 
-  \item Print a short, readable summary that includes: \texttt{cells}, \texttt{moi}, \texttt{iu\_needed}, virus volume ($\mu$L), media volume ($\mu$L).
+  \item Print a short summary that includes: \texttt{cells}, \texttt{moi}, \texttt{iu\_needed}, virus volume ($\mu$L), media volume ($\mu$L).
 \end{enumerate}
 
 \section*{Problem 3: CSV ``Sanity Check'' Report (No Loops)}
