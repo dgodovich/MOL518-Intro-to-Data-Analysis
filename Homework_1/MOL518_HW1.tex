@@ -79,20 +79,18 @@ You are doing a phage infection assay. You have a tube of virus stock at a known
 
 \section*{Problem 3: CSV Sanity Check}
 
-You ran a plate reader growth experiment and saved the results as a CSV file. Before doing any serious analysis, you want to do a fast sanity check to confirm the file loaded correctly, the sampling looks consistent, and the values are in a reasonable range.
-
-Your goal is to produce a short report in your notebook: show what you loaded, a few key numbers, and make it easy for a reader to understand what the dataset looks like.
+You ran a plate reader growth experiment and saved the results as a CSV file. Before doing any serious analysis, you want to do a fast sanity check to confirm the file saved correctly, the sampling looks consistent, and the values are in a reasonable range.
 
 \begin{enumerate}[label=\alph*)]
   \item Load \texttt{Lecture\_2/data/growth\_curve1.csv} as a 2D NumPy array called \texttt{data}.
-  \item Print the shape of \texttt{data}. Then print the first row and the last row, and briefly describe what those rows mean.
+  \item Print the shape of \texttt{data}. What does this tell you? Then print the first row and the last row, and briefly describe what those rows mean.
   \item Extract \texttt{time} in seconds and \texttt{od} as 1D arrays.
-  \item Compute and print the sampling interval in seconds, i.e. the time between sequential timepoints.
-  \item Compute and print the total duration of the experiment in hours.
+  \item Compute and print the sampling interval, the time between consecutive timepoints, in minutes.
+  \item Compute and print the total duration of the experiment in units of days.
   \item Compute and print the following summary quantities, and label each one clearly in the output:
   \begin{itemize}
-    \item absolute OD change
-    \item total fold change in OD
+    \item absolute OD change from start to end
+    \item total fold change in OD from start to end
   \end{itemize}
 \end{enumerate}
 
