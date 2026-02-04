@@ -8,6 +8,7 @@ Teaching materials for Princeton University MOL518
 - [Lecture 3: Plotting data](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_3/MOL518_Lecture3.ipynb)
 - [Lecture 4: Loops and Control Flow](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_4/MOL518_Lecture4.ipynb)
 - [Lecture 5: Working with Files and Folders](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_5/MOL518_Lecture5.ipynb)
+- [Lecture 6: Functions and py files](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_6/MOL518_Lecture6.ipynb)
 
 ## Precept Notebooks
 
