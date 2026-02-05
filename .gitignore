@@ -3,18 +3,42 @@ Lecture_2/.DS_Store
 
 # LaTeX build artifacts (keep .tex sources and final PDFs tracked)
 *.aux
+*.auxlock
+*.acn
+*.acr
+*.alg
+*.brf
 *.bbl
 *.bcf
 *.blg
+*.cb
+*.cb2
 *.fdb_latexmk
 *.fls
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.idx
+*.ilg
+*.ind
+*.ist
+*.latexmk
+*.loa
 *.lof
+*.lol
 *.lot
 *.log
+*.nlo
 *.out
+*.pax
 *.run.xml
 *.synctex.gz
+*.synctex(busy)
+*.synctex.gz(busy)
+*.thm
 *.toc
+*.xmpdata
 *.xdv
 
 # Editor / TeX tooling
