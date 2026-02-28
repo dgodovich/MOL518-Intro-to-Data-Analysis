@@ -1,5 +1,6 @@
 .DS_Store
 Lecture_2/.DS_Store
+.ipynb_checkpoints
 
 # LaTeX build artifacts (keep .tex sources and final PDFs tracked)
 *.aux
