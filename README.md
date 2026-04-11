@@ -11,6 +11,10 @@ Teaching materials for Princeton University MOL518
 - [Lecture 6: Functions and py files](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_6/MOL518_Lecture6.ipynb)
 - [Lecture 31: Digital Images](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/BPY518_Lecture31.ipynb)
 - [Lecture 31: Digital Images (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/BPY518_Lecture31_solutions.ipynb)
+- [Lecture 32: Preprocessing](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/BPY518_Lecture32.ipynb)
+- [Lecture 32: Preprocessing (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/BPY518_Lecture32_solutions.ipynb)
+- [Lecture 33: Transformations](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/BPY518_Lecture33.ipynb)
+- [Lecture 33: Transformations (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/BPY518_Lecture33_solutions.ipynb)
 
 ## Precept Notebooks
 
