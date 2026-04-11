@@ -9,8 +9,8 @@ Teaching materials for Princeton University MOL518
 - [Lecture 4: Loops and Control Flow](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_4/MOL518_Lecture4.ipynb)
 - [Lecture 5: Working with Files and Folders](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_5/MOL518_Lecture5.ipynb)
 - [Lecture 6: Functions and py files](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_6/MOL518_Lecture6.ipynb)
-- [Lecture 31: Digital Images](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/MOL518_Lecture31.ipynb)
-- [Lecture 31: Digital Images (sith Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/MOL518_Lecture31_solutions.ipynb)
+- [Lecture 31: Digital Images](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/BPY518_Lecture31.ipynb)
+- [Lecture 31: Digital Images (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_31/BPY518_Lecture31_solutions.ipynb)
 
 ## Precept Notebooks
 
