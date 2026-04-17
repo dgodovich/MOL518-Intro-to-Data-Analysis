@@ -1,0 +1,125 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{listings}
+
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue}
+
+% Simple code listing style
+\lstset{
+  basicstyle=\ttfamily\small,
+  frame=single,
+  breaklines=true,
+  showstringspaces=false,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{teal}
+}
+
+\newcommand{\course}{MOL518 Spring 2026}
+\newcommand{\hwnum}{Homework 7}
+\newcommand{\duedate}{\textbf{Due: Friday April 24, 2026}}
+
+\begin{document}
+
+\begin{center}
+{\Large \course}\\[2pt]
+{\large \hwnum}\\[6pt]
+\duedate\\[10pt]
+\end{center}
+
+For this assignment, you will generate and then submit a Jupyter notebook on Canvas. You may use generative AI tools as per the syllabus unless otherwise stated in the problem.
+
+\vskip 4pt
+
+\noindent \textit{First, make a new Jupyter notebook named \texttt{MOL518\_HW7\_<YourLastName>.ipynb}. All problems will be answered in this notebook. For each problem, start with a Markdown cell using Problem XX as the title, i.e. ``\# Problem 1''.}
+
+\vskip 8pt
+
+\noindent For this homework, you may use functions from \texttt{numpy}, \texttt{matplotlib}, \texttt{scipy.ndimage}, \texttt{scipy.fft} or \texttt{numpy.fft}, \texttt{skimage.filters}, \texttt{skimage.transform}, and \texttt{cv2}. You do \textbf{not} need to implement filters from scratch. If you use a higher-level helper function, say which one you used somewhere in your notebook.
+
+\newpage
+
+\section*{Problem 1: Inspecting the Mitosis Image}
+
+Use the shared image file \texttt{Lecture\_33/media/microscopy\_example.png}. In this problem, you will inspect the image as an array, visualize its intensity distribution, and compare two simple filtering methods.
+
+\begin{enumerate}[label=\alph*)]
+  \item Load the image and display it. If it loads as a color image, convert it to grayscale before continuing.
+
+  \item Report the following properties of the image:
+  \begin{itemize}
+    \item array \texttt{shape}
+    \item \texttt{dtype}
+    \item image height and width in pixels
+    \item total number of pixels
+    \item minimum intensity
+    \item maximum intensity
+  \end{itemize}
+
+  \item Plot a histogram of the pixel intensities. In 2--3 sentences, describe what the histogram shows about the intensity distribution in the image. For example, comment on whether most pixels are dark or bright and whether the distribution is broad, narrow, or skewed.
+
+  \item Choose one horizontal line and one vertical line through the image. Plot the image and mark the two lines clearly, then plot the two corresponding line profiles. Briefly explain what features in the image appear in those profiles.
+
+  \item Apply \textbf{two} denoising or smoothing methods to the image. At least one should be a Gaussian filter or a median filter. Display the original image and your two filtered images side by side. Briefly explain what changed in each case and which result you think is more useful.
+\end{enumerate}
+
+\section*{Problem 2: Fourier Filtering of Your Own Photo}
+
+Take a photo with your phone or another camera. Choose an image with visible structure or repeated texture so that the Fourier transform contains clear spatial-frequency information. Good examples include a brick wall, blinds, fabric, a tiled floor, a bookshelf, a fence, or notebook paper.
+
+\begin{enumerate}[label=\alph*)]
+  \item Import your image and display the original color image and a grayscale version side by side.
+
+  \item Compute the 2D Fourier transform of the grayscale image and display the centered power spectrum. Make sure to use \texttt{np.fft.fftshift} so that the zero-frequency component is in the middle.
+
+  \item Make a \textbf{low-pass} Fourier mask and use it to reconstruct a filtered image with the inverse Fourier transform.
+
+  \item Make a \textbf{high-pass} Fourier mask and use it to reconstruct a filtered image with the inverse Fourier transform.
+
+  \item Show a figure that includes:
+  \begin{itemize}
+    \item the grayscale image
+    \item the centered power spectrum
+    \item the low-pass mask
+    \item the low-pass filtered image
+    \item the high-pass mask
+    \item the high-pass filtered image
+  \end{itemize}
+
+  \item In a short paragraph, explain what kinds of visual features were preserved or suppressed by the low-pass and high-pass filters. Comment on how the appearance of the image changes in each case.
+\end{enumerate}
+
+\section*{Problem 3: Build a Small Image-Processing Pipeline}
+
+Using \textbf{a different photo}, choose a specific image-processing goal and build a short pipeline that helps achieve it. The main objective is to make a sequence of sensible image-analysis choices and show what each step contributes.
+
+Choose one goal such as:
+\begin{itemize}
+  \item highlight edges
+  \item isolate a foreground object from the background
+  \item emphasize large-scale structure
+  \item suppress fine texture
+  \item make a repeated pattern easier to see
+\end{itemize}
+
+\begin{enumerate}[label=\alph*)]
+  \item State your goal in one or two sentences before showing any code.
+
+  \item Build a pipeline with at least \textbf{three} operations. Examples of acceptable operations include smoothing, thresholding, cropping, contrast adjustment, resizing, interpolation, affine transformations, or Fourier filtering.
+
+  \item Show the intermediate result after each major step, not just the final image.
+
+  \item For each step, briefly explain why you included it and what it changed.
+
+  \item Show the final output of your pipeline and give a short assessment: what worked well, what did not work as well, and what you would try next if you wanted to improve it.
+\end{enumerate}
+
+\end{document}
