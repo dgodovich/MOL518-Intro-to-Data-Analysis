@@ -15,6 +15,8 @@ Teaching materials for Princeton University MOL518
 - [Lecture 32: Preprocessing (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_32/BPY518_Lecture32_solutions.ipynb)
 - [Lecture 33: Transformations](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_33/BPY518_Lecture33.ipynb)
 - [Lecture 33: Transformations (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_33/BPY518_Lecture33_solutions.ipynb)
+- [Lecture 34: Convolutions and Feature Extraction](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_34/BPY518_Lecture34_solutions.ipynb)
+- [Lecture 34: Convolutions and Feature Extraction (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_34/BPY518_Lecture34_solutions.ipynb)
 
 ## Precept Notebooks
 
