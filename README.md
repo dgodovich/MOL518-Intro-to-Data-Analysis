@@ -23,6 +23,8 @@ Teaching materials for Princeton University MOL518
 - [Lecture 33: Transformations (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_33/BPY518_Lecture33_solutions.ipynb)
 - [Lecture 34: Convolutions and Feature Extraction](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_34/BPY518_Lecture34.ipynb)
 - [Lecture 34: Convolutions and Feature Extraction (with Solutions)](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_34/BPY518_Lecture34_solutions.ipynb)
+- [Lecture 35: Particle Tracking](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_35/BPY518_Lecture35.ipynb)
+- [Lecture 36: Image Segmentation](https://colab.research.google.com/github/shaevitz/MOL518-Intro-to-Data-Analysis/blob/main/Lecture_36/BPY518_Lecture36.ipynb)
 
 ## Precept Notebooks
 
